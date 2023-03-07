@@ -1,0 +1,125 @@
+[19-Feb-2023 16:26:15 UTC] PHP Warning:  Undefined variable $default_text_align in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/shortcodes/commons/box-styles.php on line 3
+[19-Feb-2023 16:26:19 UTC] PHP Warning:  Undefined variable $default_text_align in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/shortcodes/commons/box-styles.php on line 3
+[19-Feb-2023 16:26:19 UTC] PHP Warning:  Undefined variable $default_text_align in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/shortcodes/commons/box-styles.php on line 3
+[19-Feb-2023 16:26:56 UTC] PHP Warning:  Undefined variable $default_text_align in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/shortcodes/commons/box-styles.php on line 3
+[19-Feb-2023 16:27:26 UTC] PHP Warning:  Undefined variable $default_text_align in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/shortcodes/commons/box-styles.php on line 3
+[19-Feb-2023 16:28:51 UTC] PHP Warning:  Undefined variable $default_text_align in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/shortcodes/commons/box-styles.php on line 3
+[19-Feb-2023 16:28:57 UTC] PHP Warning:  Undefined variable $default_text_align in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/shortcodes/commons/box-styles.php on line 3
+[19-Feb-2023 16:29:31 UTC] PHP Warning:  Undefined variable $default_text_align in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/shortcodes/commons/box-styles.php on line 3
+[20-Feb-2023 08:06:26 UTC] PHP Notice:  Đã xảy ra lỗi không mong muốn. Có thể có sự cố với WordPress.org hoặc cấu hình của máy chủ. Nếu bạn tiếp tục gặp sự cố, vui lòng thử hỏi trong <a href="https://wordpress.org/support/forums/">diễn đàn hỗ trợ</a>. (WordPress không thể thiết lập kết nối an toàn tới WordPress.org. Vui lòng liên hệ quản trị máy chủ của bạn.) in /home/datxanhmb/public_html/wp-admin/includes/plugin-install.php on line 183
+[21-Feb-2023 23:04:01 UTC] PHP Warning:  Undefined variable $default_text_align in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/shortcodes/commons/box-styles.php on line 3
+[21-Feb-2023 23:04:05 UTC] PHP Warning:  Undefined variable $default_text_align in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/shortcodes/commons/box-styles.php on line 3
+[21-Feb-2023 23:04:05 UTC] PHP Warning:  Undefined variable $default_text_align in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/shortcodes/commons/box-styles.php on line 3
+[21-Feb-2023 23:04:31 UTC] PHP Warning:  Undefined variable $default_text_align in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/shortcodes/commons/box-styles.php on line 3
+[21-Feb-2023 23:04:34 UTC] PHP Warning:  Undefined variable $default_text_align in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/shortcodes/commons/box-styles.php on line 3
+[25-Feb-2023 05:38:43 UTC] PHP Notice:  Đã xảy ra lỗi không mong muốn. Có thể có sự cố với WordPress.org hoặc cấu hình của máy chủ. Nếu bạn tiếp tục gặp sự cố, vui lòng thử hỏi trong <a href="https://wordpress.org/support/forums/">diễn đàn hỗ trợ</a>. (WordPress không thể thiết lập kết nối an toàn tới WordPress.org. Vui lòng liên hệ quản trị máy chủ của bạn.) in /home/datxanhmb/public_html/wp-admin/includes/plugin-install.php on line 183
+[03-Mar-2023 06:06:21 UTC] PHP Fatal error:  Uncaught Error: Interface "WPSEO_Admin_Asset_Location" not found in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/admin/class-admin-asset-seo-location.php:11
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/visual-term-description-editor/vendor/composer/ClassLoader.php(440): include()
+#1 /home/datxanhmb/public_html/wp-content/plugins/visual-term-description-editor/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/admin/class-admin-asset-manager.php(211): Composer\Autoload\ClassLoader->loadClass()
+#3 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/admin/class-admin-asset-manager.php(45): WPSEO_Admin_Asset_Manager::create_default_location()
+#4 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/admin/class-yoast-dashboard-widget.php(45): WPSEO_Admin_Asset_Manager->__construct()
+#5 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/admin/class-admin.php(89): Yoast_Dashboard_Widget->__construct()
+#6 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/admin/class-admin-init.php(31): WPSEO_Admin->__construct()
+#7 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/wp-seo-main.php(391): WPSEO_Admin_Init->__construct()
+#8 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): wpseo_admin_init()
+#9 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#10 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#12 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#13 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#14 /home/datxanhmb/public_html/wp-admin/admin.php(34): require_once('/home/datxanhmb...')
+#15 /home/datxanhmb/public_html/wp-admin/index.php(10): require_once('/home/datxanhmb...')
+#16 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/admin/class-admin-asset-seo-location.php on line 11
+[03-Mar-2023 13:06:50 Asia/Ho_Chi_Minh] PHP Notice:  Unknown: Read of 7813 bytes failed with errno=12 Cannot allocate memory in Unknown on line 0
+[03-Mar-2023 13:06:50 Asia/Ho_Chi_Minh] PHP Fatal error:  Failed opening required '/home/datxanhmb/public_html/wp-admin/index.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in Unknown on line 0
+[03-Mar-2023 06:06:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/plugins/wordfence/lib/wfScanFileLink.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/plugins/wordfence/lib/wfScanPath.php:5
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/wordfence/lib/wfScanEngine.php(10): require_once()
+#1 /home/datxanhmb/public_html/wp-content/plugins/wordfence/lib/wordfenceClass.php(3): require_once('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-content/plugins/wordfence/wordfence.php(118): require_once('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-settings.php(447): include_once('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/wp-admin/admin.php(34): require_once('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/wp-admin/index.php(10): require_once('/home/datxanhmb...')
+#8 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/wordfence/lib/wfScanPath.php on line 5
+[03-Mar-2023 06:06:50 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/Schemas/V1/ProductAttributeSchema.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:87
+Stack trace:
+#0 [internal function]: Automattic\Jetpack\Autoloader\jp282920e83de2438099380f7e5b2fa2b4\PHP_Autoloader::load_class()
+#1 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/woocommerce-blocks/src/StoreApi/deprecated.php(31): class_alias()
+#2 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-version-loader.php(89): require_once('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader-handler.php(124): Automattic\Jetpack\Autoloader\jp282920e83de2438099380f7e5b2fa2b4\Version_Loader->load_filemap()
+#4 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-autoloader.php(80): Automattic\Jetpack\Autoloader\jp282920e83de2438099380f7e5b2fa2b4\Autoloader_Handler->activate_autoloader()
+#5 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/vendor/autoload_packages.php(13): Automattic\Jetpack\Autoloader\jp282920e83de2438099380f7e5b2fa2b4\Autoloader::init()
+#6 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Autoloader.php(37): require('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/woocommerce.php(27): Automattic\WooCommerce\Autoloader::init()
+#8 /home/datxanhmb/public_html/wp-settings.php(447): include_once('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#10 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#11 /home/datxanhmb/public_html/wp-admin/admin.php(34): require_once('/home/datxanhmb...')
+#12 /home/datxanhmb/public_html/wp-admin/index.php(10): require_once('/home/datxanhmb...')
+#13 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+[03-Mar-2023 06:37:51 UTC] PHP Warning:  include_once(): Failed opening '/home/datxanhmb/public_html/wp-content/plugins/q2w3-fixed-widget/q2w3-fixed-widget.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-settings.php on line 447
+[03-Mar-2023 07:00:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-includes/post.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-settings.php:196
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-config.php(97): require_once()
+#1 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-admin/admin-ajax.php(22): require_once('/home/datxanhmb...')
+#3 {main}
+  thrown in /home/datxanhmb/public_html/wp-settings.php on line 196
+[03-Mar-2023 07:45:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-includes/class-wp-theme-json-data.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-settings.php:175
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-config.php(97): require_once()
+#1 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-admin/admin-ajax.php(22): require_once('/home/datxanhmb...')
+#3 {main}
+  thrown in /home/datxanhmb/public_html/wp-settings.php on line 175
+[03-Mar-2023 08:00:07 UTC] PHP Warning:  include_once(): Failed opening '/home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-hook-functions.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php on line 156
+[03-Mar-2023 08:00:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acf_add_filter_variations() in /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-field-functions.php:69
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php(156): include_once()
+#1 /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/acf.php(124): acf_include()
+#2 /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/acf.php(726): ACF->initialize()
+#3 /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/acf.php(732): acf()
+#4 /home/datxanhmb/public_html/wp-settings.php(447): include_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/wp-admin/admin-ajax.php(22): require_once('/home/datxanhmb...')
+#8 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-field-functions.php on line 69
+[03-Mar-2023 08:36:51 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-includes/class-wp-block-editor-context.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-settings.php:310
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-config.php(97): require_once()
+#1 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-admin/admin.php(34): require_once('/home/datxanhmb...')
+#3 {main}
+  thrown in /home/datxanhmb/public_html/wp-settings.php on line 310
+[03-Mar-2023 08:51:53 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-includes/block-supports/spacing.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-settings.php:334
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-config.php(97): require_once()
+#1 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-admin/admin.php(34): require_once('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-admin/index.php(10): require_once('/home/datxanhmb...')
+#4 {main}
+  thrown in /home/datxanhmb/public_html/wp-settings.php on line 334
+[03-Mar-2023 09:41:21 UTC] PHP Warning:  include_once(): Failed opening '/home/datxanhmb/public_html/wp-content/plugins/woocommerce/includes/class-wc-countries.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 449
+[03-Mar-2023 16:41:24 Asia/Ho_Chi_Minh] PHP Fatal error:  Failed opening required '/home/datxanhmb/public_html/wp-admin/admin-ajax.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in Unknown on line 0
+[03-Mar-2023 09:41:39 UTC] PHP Fatal error:  Uncaught Error: Class "ACF_Ajax_Query" not found in /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-query-users.php:9
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php(156): include_once()
+#1 /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/acf.php(158): acf_include()
+#2 /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/acf.php(726): ACF->initialize()
+#3 /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/acf.php(732): acf()
+#4 /home/datxanhmb/public_html/wp-settings.php(447): include_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/wp-admin/admin.php(34): require_once('/home/datxanhmb...')
+#8 /home/datxanhmb/public_html/wp-admin/edit.php(10): require_once('/home/datxanhmb...')
+#9 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-query-users.php on line 9
+[03-Mar-2023 09:45:48 UTC] PHP Warning:  include_once(): Failed opening '/home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-local-json-diff.php' for inclusion (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php on line 156

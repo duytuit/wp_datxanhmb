@@ -1,0 +1,124 @@
+2023-02-28T03:00:17+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Admin/PluginsHelper.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:87
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(143): Automattic\Jetpack\Autoloader\jp282920e83de2438099380f7e5b2fa2b4\PHP_Autoloader::load_class()
+#1 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(102): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#2 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(85): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#3 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Admin/Composer/Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#4 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#5 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#6 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Packages::on_init()
+#7 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#10 /home/datxanhmb/public_html/wp-config.php(99): require_once('/home/datxanhmb...')
+#11 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#12 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#13 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#14 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-02-28T03:00:17+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Admin/PluginsInstaller.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:87
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(142): Automattic\Jetpack\Autoloader\jp282920e83de2438099380f7e5b2fa2b4\PHP_Autoloader::load_class()
+#1 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(102): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#2 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(85): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#3 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Admin/Composer/Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#4 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#5 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#6 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Packages::on_init()
+#7 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#10 /home/datxanhmb/public_html/wp-config.php(99): require_once('/home/datxanhmb...')
+#11 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#12 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#13 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#14 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-02-28T03:00:33+00:00 CRITICAL Uncaught Error: Class "Yoast\WP\SEO\Conditionals\Addon_Installation_Conditional" not found in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php:1520
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getAddonInstallationConditionalService()
+#1 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php(230): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get()
+#2 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php(212): Yoast\WP\SEO\Loader->conditionals_are_met()
+#3 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): Yoast\WP\SEO\Loader->load_routes()
+#4 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/datxanhmb/public_html/wp-includes/rest-api.php(577): do_action()
+#7 /home/datxanhmb/public_html/wp-includes/rest-api.php(403): rest_get_server()
+#8 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): rest_api_loaded()
+#9 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#10 /home/datxanhmb/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#11 /home/datxanhmb/public_html/wp-includes/class-wp.php(399): do_action_ref_array()
+#12 /home/datxanhmb/public_html/wp-includes/class-wp.php(780): WP->parse_request()
+#13 /home/datxanhmb/public_html/wp-includes/functions.php(1332): WP->main()
+#14 /home/datxanhmb/public_html/wp-blog-header.php(16): wp()
+#15 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#16 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php on line 1520
+
+2023-02-28T03:00:33+00:00 CRITICAL Uncaught Error: Class "Yoast\WP\SEO\Routes\Supported_Features_Route" not found in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php(212): Yoast\WP\SEO\Loader->conditionals_are_met()
+#1 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): Yoast\WP\SEO\Loader->load_routes()
+#2 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/datxanhmb/public_html/wp-includes/rest-api.php(577): do_action()
+#5 /home/datxanhmb/public_html/wp-includes/rest-api.php(403): rest_get_server()
+#6 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): rest_api_loaded()
+#7 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#8 /home/datxanhmb/public_html/wp-includes/plugin.php(565): WP_Hook->do_action()
+#9 /home/datxanhmb/public_html/wp-includes/class-wp.php(399): do_action_ref_array()
+#10 /home/datxanhmb/public_html/wp-includes/class-wp.php(780): WP->parse_request()
+#11 /home/datxanhmb/public_html/wp-includes/functions.php(1332): WP->main()
+#12 /home/datxanhmb/public_html/wp-blog-header.php(16): wp()
+#13 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#14 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php on line 228
+
+2023-02-28T03:01:14+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/inc/classes/class-tgm-plugin-activation.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/functions/function-plugins.php:90
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php(42): require()
+#1 /home/datxanhmb/public_html/wp-content/themes/flatsome/functions.php(8): require('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-settings.php(585): include('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-config.php(99): require_once('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#7 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/functions/function-plugins.php on line 90
+
+2023-02-28T03:01:14+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/inc/classes/class-tgm-plugin-activation.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/functions/function-plugins.php:90
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php(42): require()
+#1 /home/datxanhmb/public_html/wp-content/themes/flatsome/functions.php(8): require('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-settings.php(585): include('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-config.php(99): require_once('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#7 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/functions/function-plugins.php on line 90
+
+2023-02-28T03:01:16+00:00 CRITICAL Uncaught Error: Class "WC_Order" not found in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Admin/Overrides/Order.php:18
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php(87): require()
+#1 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/Schedulers/OrdersScheduler.php(35): Automattic\Jetpack\Autoloader\jp282920e83de2438099380f7e5b2fa2b4\PHP_Autoloader::load_class()
+#2 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Admin/ReportsSync.php(24): Automattic\WooCommerce\Internal\Admin\Schedulers\OrdersScheduler::init()
+#3 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(154): Automattic\WooCommerce\Admin\ReportsSync::init()
+#4 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(102): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->includes()
+#5 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php(85): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->on_plugins_loaded()
+#6 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Admin/Composer/Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#7 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#8 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#9 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Packages::on_init()
+#10 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#11 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#12 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#13 /home/datxanhmb/public_html/wp-config.php(99): require_once('/home/datxanhmb...')
+#14 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#15 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#16 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#17 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Admin/Overrides/Order.php on line 18
+

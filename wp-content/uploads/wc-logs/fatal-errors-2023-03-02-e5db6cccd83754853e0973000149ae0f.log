@@ -1,0 +1,279 @@
+2023-03-02T00:22:17+00:00 CRITICAL Uncaught Error: Class "WC_Countries" not found in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php:625
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): WooCommerce->init()
+#1 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#2 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#3 /home/datxanhmb/public_html/wp-settings.php(617): do_action()
+#4 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#8 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php on line 625
+
+2023-03-02T00:22:22+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/partials/element-menu-icon.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-includes/template.php:785
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#1 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#2 /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php(99): get_template_part()
+#3 /home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php(12): flatsome_header_elements()
+#4 /home/datxanhmb/public_html/wp-includes/template.php(785): require('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#6 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#7 /home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php(7): get_template_part()
+#8 /home/datxanhmb/public_html/wp-includes/template.php(785): require('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#10 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#11 /home/datxanhmb/public_html/wp-content/themes/flatsome-child/header.php(35): get_template_part()
+#12 /home/datxanhmb/public_html/wp-includes/template.php(783): require_once('/home/datxanhmb...')
+#13 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#14 /home/datxanhmb/public_html/wp-includes/general-template.php(48): locate_template()
+#15 /home/datxanhmb/public_html/wp-content/themes/flatsome/404.php(10): get_header()
+#16 /home/datxanhmb/public_html/wp-includes/template-loader.php(106): include('/home/datxanhmb...')
+#17 /home/datxanhmb/public_html/wp-blog-header.php(19): require_once('/home/datxanhmb...')
+#18 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#19 {main}
+  thrown in /home/datxanhmb/public_html/wp-includes/template.php on line 785
+
+2023-03-02T00:22:22+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/partials/element-menu-icon.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-includes/template.php:785
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#1 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#2 /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php(99): get_template_part()
+#3 /home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php(12): flatsome_header_elements()
+#4 /home/datxanhmb/public_html/wp-includes/template.php(785): require('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#6 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#7 /home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php(7): get_template_part()
+#8 /home/datxanhmb/public_html/wp-includes/template.php(785): require('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#10 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#11 /home/datxanhmb/public_html/wp-content/themes/flatsome-child/header.php(35): get_template_part()
+#12 /home/datxanhmb/public_html/wp-includes/template.php(783): require_once('/home/datxanhmb...')
+#13 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#14 /home/datxanhmb/public_html/wp-includes/general-template.php(48): locate_template()
+#15 /home/datxanhmb/public_html/wp-content/themes/flatsome/404.php(10): get_header()
+#16 /home/datxanhmb/public_html/wp-includes/template-loader.php(106): include('/home/datxanhmb...')
+#17 /home/datxanhmb/public_html/wp-blog-header.php(19): require_once('/home/datxanhmb...')
+#18 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#19 {main}
+  thrown in /home/datxanhmb/public_html/wp-includes/template.php on line 785
+
+2023-03-02T00:22:22+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/partials/element-cart-replace.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-includes/template.php:785
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#1 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#2 /home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/partials/element-cart-mobile.php(4): get_template_part()
+#3 /home/datxanhmb/public_html/wp-includes/template.php(785): require('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#5 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#6 /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php(99): get_template_part()
+#7 /home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php(34): flatsome_header_elements()
+#8 /home/datxanhmb/public_html/wp-includes/template.php(785): require('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#10 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#11 /home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php(7): get_template_part()
+#12 /home/datxanhmb/public_html/wp-includes/template.php(785): require('/home/datxanhmb...')
+#13 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#14 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#15 /home/datxanhmb/public_html/wp-content/themes/flatsome-child/header.php(35): get_template_part()
+#16 /home/datxanhmb/public_html/wp-includes/template.php(783): require_once('/home/datxanhmb...')
+#17 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#18 /home/datxanhmb/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/datxanhmb/public_html/wp-content/themes/flatsome/404.php(10): get_header()
+#20 /home/datxanhmb/public_html/wp-includes/template-loader.php(106): include('/home/datxanhmb...')
+#21 /home/datxanhmb/public_html/wp-blog-header.php(19): require_once('/home/datxanhmb...')
+#22 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#23 {main}
+  thrown in /home/datxanhmb/public_html/wp-includes/template.php on line 785
+
+2023-03-02T00:22:22+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/partials/element-cart-replace.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-includes/template.php:785
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#1 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#2 /home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/partials/element-cart-mobile.php(4): get_template_part()
+#3 /home/datxanhmb/public_html/wp-includes/template.php(785): require('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#5 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#6 /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/structure/structure-header.php(99): get_template_part()
+#7 /home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/header-main.php(34): flatsome_header_elements()
+#8 /home/datxanhmb/public_html/wp-includes/template.php(785): require('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#10 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#11 /home/datxanhmb/public_html/wp-content/themes/flatsome/template-parts/header/header-wrapper.php(7): get_template_part()
+#12 /home/datxanhmb/public_html/wp-includes/template.php(785): require('/home/datxanhmb...')
+#13 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#14 /home/datxanhmb/public_html/wp-includes/general-template.php(204): locate_template()
+#15 /home/datxanhmb/public_html/wp-content/themes/flatsome-child/header.php(35): get_template_part()
+#16 /home/datxanhmb/public_html/wp-includes/template.php(783): require_once('/home/datxanhmb...')
+#17 /home/datxanhmb/public_html/wp-includes/template.php(718): load_template()
+#18 /home/datxanhmb/public_html/wp-includes/general-template.php(48): locate_template()
+#19 /home/datxanhmb/public_html/wp-content/themes/flatsome/404.php(10): get_header()
+#20 /home/datxanhmb/public_html/wp-includes/template-loader.php(106): include('/home/datxanhmb...')
+#21 /home/datxanhmb/public_html/wp-blog-header.php(19): require_once('/home/datxanhmb...')
+#22 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#23 {main}
+  thrown in /home/datxanhmb/public_html/wp-includes/template.php on line 785
+
+2023-03-02T03:50:03+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/inc/shortcodes/ux_text.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php:128
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/themes/flatsome/functions.php(8): require()
+#1 /home/datxanhmb/public_html/wp-settings.php(585): include('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#6 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php on line 128
+
+2023-03-02T03:50:03+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/inc/shortcodes/ux_text.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php:128
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/themes/flatsome/functions.php(8): require()
+#1 /home/datxanhmb/public_html/wp-settings.php(585): include('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#6 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php on line 128
+
+2023-03-02T03:50:03+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/inc/shortcodes/ux_text.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php:128
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/themes/flatsome/functions.php(8): require()
+#1 /home/datxanhmb/public_html/wp-settings.php(585): include('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#6 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php on line 128
+
+2023-03-02T03:50:03+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/inc/shortcodes/ux_text.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php:128
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/themes/flatsome/functions.php(8): require()
+#1 /home/datxanhmb/public_html/wp-settings.php(585): include('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#6 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php on line 128
+
+2023-03-02T03:50:03+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/inc/shortcodes/ux_text.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php:128
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/themes/flatsome/functions.php(8): require()
+#1 /home/datxanhmb/public_html/wp-settings.php(585): include('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#6 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php on line 128
+
+2023-03-02T03:50:33+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php:87
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Admin/Composer/Package.php(56): Automattic\Jetpack\Autoloader\jp282920e83de2438099380f7e5b2fa2b4\PHP_Autoloader::load_class()
+#1 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#2 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#3 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Packages::on_init()
+#4 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#7 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#8 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#10 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#11 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/vendor/jetpack-autoloader/class-php-autoloader.php on line 87
+
+2023-03-02T03:50:33+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/plugins/woocommerce/includes/react-admin/page-controller-functions.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php:77
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Admin/Composer/Package.php(65): Automattic\WooCommerce\Internal\Admin\FeaturePlugin->init()
+#1 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Packages.php(64): Automattic\WooCommerce\Admin\Composer\Package::init()
+#2 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Packages.php(44): Automattic\WooCommerce\Packages::load_packages()
+#3 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Packages::on_init()
+#4 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#7 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#8 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#10 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#11 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/src/Internal/Admin/FeaturePlugin.php on line 77
+
+2023-03-02T03:50:40+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-includes/widgets/class-wp-widget-recent-comments.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-includes/default-widgets.php:53
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-includes/functions.php(5239): require_once()
+#1 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): wp_maybe_load_widgets()
+#2 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#5 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#8 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#9 {main}
+  thrown in /home/datxanhmb/public_html/wp-includes/default-widgets.php on line 53
+
+2023-03-02T03:50:40+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-includes/widgets/class-wp-widget-recent-comments.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-includes/default-widgets.php:53
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-includes/functions.php(5239): require_once()
+#1 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): wp_maybe_load_widgets()
+#2 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#5 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#8 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#9 {main}
+  thrown in /home/datxanhmb/public_html/wp-includes/default-widgets.php on line 53
+
+2023-03-02T04:15:58+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/inc/shortcodes/ux_menu_link.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php:113
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/themes/flatsome/functions.php(8): require()
+#1 /home/datxanhmb/public_html/wp-settings.php(585): include('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#6 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php on line 113
+
+2023-03-02T04:15:58+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/inc/shortcodes/ux_image_box.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php:112
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/themes/flatsome/functions.php(8): require()
+#1 /home/datxanhmb/public_html/wp-settings.php(585): include('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#6 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php on line 112
+
+2023-03-02T04:15:58+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/inc/integrations/contact-form-7/contact-form-7.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/integrations/integrations.php:48
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php(199): require()
+#1 /home/datxanhmb/public_html/wp-content/themes/flatsome/functions.php(8): require('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-settings.php(585): include('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#7 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/integrations/integrations.php on line 48
+
+2023-03-02T04:15:58+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/core/server/helpers/breakpoints.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/core/ux-builder.php:18
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/builder.php(3): require_once()
+#1 /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/init.php(216): require('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-content/themes/flatsome/functions.php(8): require('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/wp-settings.php(585): include('/home/datxanhmb...')
+#4 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#5 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#8 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/themes/flatsome/inc/builder/core/ux-builder.php on line 18
+

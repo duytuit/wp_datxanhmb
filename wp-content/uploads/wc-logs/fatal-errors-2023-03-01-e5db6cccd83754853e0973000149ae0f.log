@@ -1,0 +1,230 @@
+2023-03-01T02:25:16+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-includes/widgets/class-wp-widget-archives.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-includes/default-widgets.php:20
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-includes/functions.php(5239): require_once()
+#1 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): wp_maybe_load_widgets()
+#2 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#5 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#8 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#9 {main}
+  thrown in /home/datxanhmb/public_html/wp-includes/default-widgets.php on line 20
+
+2023-03-01T02:25:16+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-includes/widgets/class-wp-widget-archives.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-includes/default-widgets.php:20
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-includes/functions.php(5239): require_once()
+#1 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): wp_maybe_load_widgets()
+#2 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#5 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#8 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#9 {main}
+  thrown in /home/datxanhmb/public_html/wp-includes/default-widgets.php on line 20
+
+2023-03-01T02:25:16+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-includes/widgets/class-wp-widget-archives.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-includes/default-widgets.php:20
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-includes/functions.php(5239): require_once()
+#1 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): wp_maybe_load_widgets()
+#2 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#5 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#8 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#9 {main}
+  thrown in /home/datxanhmb/public_html/wp-includes/default-widgets.php on line 20
+
+2023-03-01T02:26:59+00:00 CRITICAL Uncaught Error: Class "Yoast\WP\SEO\Integrations\Third_Party\Wincher_Publish" not found in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met()
+#1 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): Yoast\WP\SEO\Loader->load_integrations()
+#2 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/datxanhmb/public_html/wp-settings.php(617): do_action()
+#5 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#8 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#9 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php on line 228
+
+2023-03-01T02:26:59+00:00 CRITICAL Uncaught Error: Class "Yoast\WP\SEO\Integrations\Third_Party\Wincher_Publish" not found in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php:228
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met()
+#1 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): Yoast\WP\SEO\Loader->load_integrations()
+#2 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#3 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#4 /home/datxanhmb/public_html/wp-settings.php(617): do_action()
+#5 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#6 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#8 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#9 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php on line 228
+
+2023-03-01T02:26:59+00:00 CRITICAL Uncaught Error: Class "Yoast\WP\SEO\Conditionals\Web_Stories_Conditional" not found in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php:1910
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getWebStoriesConditionalService()
+#1 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php(230): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get()
+#2 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met()
+#3 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): Yoast\WP\SEO\Loader->load_integrations()
+#4 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/datxanhmb/public_html/wp-settings.php(617): do_action()
+#7 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#8 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#10 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#11 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php on line 1910
+
+2023-03-01T02:26:59+00:00 CRITICAL Uncaught Error: Class "Yoast\WP\SEO\Conditionals\Web_Stories_Conditional" not found in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php:1910
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/vendor_prefixed/symfony/dependency-injection/Container.php(271): Yoast\WP\SEO\Generated\Cached_Container->getWebStoriesConditionalService()
+#1 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php(230): YoastSEO_Vendor\Symfony\Component\DependencyInjection\Container->get()
+#2 /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/loader.php(197): Yoast\WP\SEO\Loader->conditionals_are_met()
+#3 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): Yoast\WP\SEO\Loader->load_integrations()
+#4 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#5 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/datxanhmb/public_html/wp-settings.php(617): do_action()
+#7 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#8 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#10 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#11 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/wordpress-seo/src/generated/container.php on line 1910
+
+2023-03-01T02:27:00+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-includes/pluggable-deprecated.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-settings.php:463
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-config.php(97): require_once()
+#1 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#2 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#3 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#4 {main}
+  thrown in /home/datxanhmb/public_html/wp-settings.php on line 463
+
+2023-03-01T02:27:00+00:00 CRITICAL Uncaught Error: Class "ActionScheduler_Abstract_QueueRunner" not found in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php:6
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(122): include()
+#1 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(37): ActionScheduler::autoload()
+#2 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(147): ActionScheduler::runner()
+#3 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init()
+#4 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_4_dot_0()
+#5 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(306): ActionScheduler_Versions::initialize_latest_version()
+#6 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#9 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#10 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#11 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#12 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#13 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_QueueRunner.php on line 6
+
+2023-03-01T02:28:50+00:00 CRITICAL Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php:418
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(25): ActionScheduler_Store::instance()
+#1 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(145): ActionScheduler::store()
+#2 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init()
+#3 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_4_dot_0()
+#4 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(306): ActionScheduler_Versions::initialize_latest_version()
+#5 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#6 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#8 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#10 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#11 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#12 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php on line 418
+
+2023-03-01T02:28:50+00:00 CRITICAL Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php:418
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(25): ActionScheduler_Store::instance()
+#1 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(145): ActionScheduler::store()
+#2 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init()
+#3 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_4_dot_0()
+#4 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(306): ActionScheduler_Versions::initialize_latest_version()
+#5 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#6 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#8 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#10 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#11 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#12 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php on line 418
+
+2023-03-01T02:28:50+00:00 CRITICAL Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php:418
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(25): ActionScheduler_Store::instance()
+#1 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(145): ActionScheduler::store()
+#2 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init()
+#3 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_4_dot_0()
+#4 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(306): ActionScheduler_Versions::initialize_latest_version()
+#5 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#6 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#8 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#10 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#11 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#12 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php on line 418
+
+2023-03-01T02:28:50+00:00 CRITICAL Uncaught Error: Class "ActionScheduler_DBStore" not found in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php:418
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(25): ActionScheduler_Store::instance()
+#1 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php(145): ActionScheduler::store()
+#2 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init()
+#3 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_4_dot_0()
+#4 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(306): ActionScheduler_Versions::initialize_latest_version()
+#5 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#6 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#8 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#10 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#11 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#12 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler_Store.php on line 418
+
+2023-03-01T02:28:50+00:00 CRITICAL Uncaught Error: Failed opening required '/home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/functions.php' (include_path='.:/opt/alt/php80/usr/share/pear:/opt/alt/php80/usr/share/php:/usr/share/pear:/usr/share/php') in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php:142
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/action-scheduler.php(55): ActionScheduler::init()
+#1 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/ActionScheduler_Versions.php(59): action_scheduler_initialize_3_dot_4_dot_0()
+#2 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(306): ActionScheduler_Versions::initialize_latest_version()
+#3 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#4 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/datxanhmb/public_html/wp-settings.php(480): do_action()
+#6 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#7 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#8 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#9 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#10 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/packages/action-scheduler/classes/abstracts/ActionScheduler.php on line 142
+
+2023-03-01T03:45:45+00:00 CRITICAL Uncaught Exception: Dữ liệu cửa hàng không hợp lệ. in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php:101
+Stack trace:
+#0 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(139): WC_Data_Store->__construct()
+#1 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/includes/class-wc-customer.php(108): WC_Data_Store::load()
+#2 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(811): WC_Customer->__construct()
+#3 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(2512): WooCommerce->initialize_cart()
+#4 /home/datxanhmb/public_html/wp-content/plugins/woocommerce/includes/class-woocommerce.php(633): wc_load_cart()
+#5 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(308): WooCommerce->init()
+#6 /home/datxanhmb/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /home/datxanhmb/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /home/datxanhmb/public_html/wp-settings.php(617): do_action()
+#9 /home/datxanhmb/public_html/wp-config.php(97): require_once('/home/datxanhmb...')
+#10 /home/datxanhmb/public_html/wp-load.php(50): require_once('/home/datxanhmb...')
+#11 /home/datxanhmb/public_html/wp-blog-header.php(13): require_once('/home/datxanhmb...')
+#12 /home/datxanhmb/public_html/index.php(17): require('/home/datxanhmb...')
+#13 {main}
+  thrown in /home/datxanhmb/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php on line 101
+
