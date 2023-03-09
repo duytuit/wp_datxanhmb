@@ -111,7 +111,6 @@ function ux_list_products( $args ) {
 	}
 
 	$results = new WP_Query( $query_args );
-
 	return $results;
 } // List products
 

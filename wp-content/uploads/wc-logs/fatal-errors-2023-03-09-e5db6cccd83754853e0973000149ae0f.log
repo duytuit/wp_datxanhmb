@@ -1,0 +1,11 @@
+2023-03-09T07:56:44+00:00 CRITICAL Uncaught Error: Object of class WP_Query could not be converted to string in /Users/duytu/dev/dev_home/wp_datxanhmb/wp-content/themes/flatsome/inc/woocommerce/structure-wc-helpers.php:114
+Stack trace:
+#0 /Users/duytu/dev/dev_home/wp_datxanhmb/wp-content/themes/flatsome/inc/shortcodes/ux_products.php(238): ux_list_products(Array)
+#1 /Users/duytu/dev/dev_home/wp_datxanhmb/wp-includes/shortcodes.php(355): ux_products(Array, '', 'ux_products')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /Users/duytu/dev/dev_home/wp_datxanhmb/wp-includes/shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(button...', 'do_shortcode_ta...', '\n[title style="...')
+#4 /Users/duytu/dev/dev_home/wp_datxanhmb/wp-content/themes/flatsome/inc/shortcodes/row.php(216): do_shortcode('\n[title style="...')
+#5 /Users/duytu/dev/dev_home/wp_datxanhmb/wp-includes/shortcodes.php(355): ux_col(Array, '\n[title style="...', 'col')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 /Users/duytu/dev/dev_home/wp_datxanhmb/wp-includes/shortcodes. in /Users/duytu/dev/dev_home/wp_datxanhmb/wp-content/themes/flatsome/inc/woocommerce/structure-wc-helpers.php on line 114
+
