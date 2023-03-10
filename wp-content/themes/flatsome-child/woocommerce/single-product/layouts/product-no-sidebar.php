@@ -1,7 +1,7 @@
 <?php 
 global $product;
 $content_schema['@type']= 'Product';
-$content_schema['@id']= $product->get_id();
+$content_schema['@id']= get_permalink( $product->get_id() ).'#product';
 $content_schema['name']= wp_kses_post( $product->get_name() );
 $content_schema['url']= get_permalink( $product->get_id() );
 $content_schema['description']= wp_strip_all_tags( $product->get_short_description());
