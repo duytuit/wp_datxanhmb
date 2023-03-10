@@ -5,7 +5,7 @@
  * @package flatsome
  */
 
-require get_template_directory() . '/inc/init.php';
+
 function enqueue_admin()
 {
     ?>
@@ -1630,6 +1630,7 @@ function devvn_readmore_taxonomy_flatsome(){
 add_filter( 'auto_update_plugin', '__return_false' );
 add_filter( 'auto_update_theme', '__return_false' );
 add_filter('use_block_editor_for_post', '__return_false', 10);
+require get_template_directory() . '/inc/init.php';
 /**
  * Note: It's not recommended to add any custom code here. Please use a child theme so that your customizations aren't lost during updates.
  * Learn more here: http://codex.wordpress.org/Child_Themes
