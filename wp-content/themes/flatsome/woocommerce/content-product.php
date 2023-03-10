@@ -80,6 +80,9 @@ if ( $out_of_stock ) $classes[] = 'out-of-stock';
 				do_action( 'flatsome_product_box_after' );
 
 			?>
+			<span class="btn-xem-them"><a href="<?php echo get_the_permalink(); ?>">Chi tiết dự án</a></span>
+			
+		
 		</div>
 	</div>
 	<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
